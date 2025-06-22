@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Add arcade-style fonts */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+/* Global layout */
+html {
+  scroll-behavior: smooth;
+  background-color: #000;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Custom animation: fade-in + drop */
+@keyframes fadeInDrop {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-fadeInDrop {
+  animation: fadeInDrop 0.7s ease-out forwards;
+}
+
+/* Add scanline effect (optional retro screen) */
+.scanlines::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.02) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  z-index: 10;
+}
+
+/* Utility classes for glowing arcade text */
+.arcade-glow {
+  color: #ffcc00;
+  text-shadow: 0 0 5px #ffcc00, 0 0 10px #ff0080, 0 0 20px #00ffe7;
+}
