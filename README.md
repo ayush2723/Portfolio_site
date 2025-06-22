@@ -1,54 +1,67 @@
-# React + TypeScript + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website — a fully responsive, modern web application built using **React**, **TypeScript**, and **Tailwind CSS**. This project serves as a central platform to showcase my work, skills, experience, and contact details in a clean and professional interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ Built with **React + TypeScript** for scalable and type-safe development
+- 🎨 **Tailwind CSS** for rapid, responsive, and utility-first styling
+- 🌙 Light/Dark mode toggle for accessibility and aesthetic
+- 🧩 Modular components for maintainability
+- 📱 Fully responsive across devices
+- 🌐 Deployed via **GitHub Pages**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📁 Sections Overview
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🧑‍💼 About Me
+A concise summary introducing who I am, my background, values, and what drives me as a developer.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 💼 Experience
+Details of my professional/academic background including internships, roles, contributions, and impact.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### 🛠️ Skills
+A curated list of technical proficiencies across:
+- Programming Languages: `C++`, `Python`, `JavaScript`, `TypeScript`
+- Frameworks & Libraries: `React`, `Express.js`, `Node.js`
+- Tools: `Git`, `GitHub`, `VS Code`, `Postman`
+- Bioinformatics Libraries: `Biopython`
+
+### 📂 Projects
+Showcasing selected projects with links to live demos or repositories. Includes:
+- ✅ DesignOCrats Website
+- ✅ Bioinformatics toolkit (**BioKit 1**)
+- ✅ Kudos
+- ✅ Other web and data-based projects
+
+Each project includes a description, tech stack, and link to source code.
+
+### 📫 Contact
+A simple and elegant contact section with:
+- Email
+- LinkedIn
+- Mobile Number
+
+---
+
+## 🛠️ Technologies Used
+
+| Tech             | Description                                |
+|------------------|--------------------------------------------|
+| React            | UI library for building interactive UIs    |
+| TypeScript       | Strongly typed JavaScript                  |
+| Tailwind CSS     | Utility-first CSS framework                |
+| VS Code          | Code editor                                |
+
+---
+
+## 📦 Getting Started Locally
+
+```bash
+git clone https://github.com/ayush2723/Portfolio_site.git
+cd Portfolio_site
+npm install
+npm run dev
