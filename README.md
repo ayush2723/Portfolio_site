@@ -61,7 +61,7 @@ A simple and elegant contact section with:
 ## 📦 Getting Started Locally
 
 ```bash
-git clone https://github.com/ayush2723/Portfolio_Site.git
-cd Portfolio_Site
+git clone https://github.com/ayush2723/Portfolio_site.git
+cd Portfolio_site
 npm install
 npm run dev
