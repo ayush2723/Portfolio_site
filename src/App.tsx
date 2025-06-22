@@ -6,7 +6,7 @@ import ProjectsSection from './components/ProjectsSection';
 import ExperienceSection from './components/ExperienceSection';
 import SkillsSection from './components/SkillsSection';
 import PersonalTouchSection from './components/PersonalTouchSection';
-import ContactSection from './components/ContactSection';
+
 import Footer from './components/Footer';
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
         <ExperienceSection />
         <SkillsSection />
         <PersonalTouchSection />
-        {/* <ContactSection /> */}
+       
       </main>
       <Footer />
     </div>
