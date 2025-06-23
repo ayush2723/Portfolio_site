@@ -39,19 +39,19 @@ const Footer: React.FC = () => {
           {/* Social + Contact */}
           <div className="flex items-center gap-4 text-sm">
             <a
-              href="mailto:ayush@example.com"
+              href="mailto:ayush1289sharma@gmail.com"
               className="flex items-center gap-1 hover:text-white"
             >
               <Mail size={16} /> Email
             </a>
             <a
-              href="tel:+911234567890"
+              href="tel:+91 8219861829"
               className="flex items-center gap-1 hover:text-white"
             >
               <Phone size={16} /> Call
             </a>
             <a
-              href="https://linkedin.com/in/yourlinkedin"
+              href="https://linkedin.com/in/ayush-sharma027"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 hover:text-white"
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
               <Linkedin size={16} /> LinkedIn
             </a>
             <a
-              href="https://codolio.com/ayush"
+              href="https://codolio.com/profile/Ayush_27"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 hover:text-white"
