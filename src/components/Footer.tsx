@@ -3,7 +3,7 @@ import { Heart, Mail, Phone, Linkedin, Globe } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-900 text-gray-400 py-12 px-4">
+    <footer id="contact" className="bg-gray-900 text-gray-400 py-12 px-4">
       <div className="container mx-auto max-w-6xl">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">

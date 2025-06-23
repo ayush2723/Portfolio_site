@@ -1,27 +1,27 @@
 import React from 'react';
-import { BookOpen, Code, Coffee, Lightbulb } from 'lucide-react';
+import { Mic, BrainCircuit, Sparkles, ScissorsSquare } from 'lucide-react';
 
 const PersonalTouchSection: React.FC = () => {
   const currentlyLearning = [
     {
-      icon: <Code size={24} />,
-      title: 'WebAssembly',
-      description: 'Exploring high-performance web applications with WASM',
+      icon: <BrainCircuit size={24} />,
+      title: 'AI & Machine Learning',
+      description: 'Designing ML-powered CRISPR tools and predictive models for BioKit 2.',
     },
     {
-      icon: <Lightbulb size={24} />,
-      title: 'Machine Learning',
-      description: 'Building predictive models with TensorFlow.js',
+      icon: <Sparkles size={24} />,
+      title: 'Prompt Engineering',
+      description: 'Mastering Google’s prompt engineering course for efficient task automation.',
     },
     {
-      icon: <BookOpen size={24} />,
-      title: 'System Design',
-      description: 'Studying scalable architecture patterns for distributed systems',
+      icon: <Mic size={24} />,
+      title: 'Public Speaking',
+      description: 'Sharpening stage presence and storytelling for leadership and event hosting.',
     },
     {
-      icon: <Coffee size={24} />,
-      title: 'UI/UX Design',
-      description: 'Improving my design skills for better user experiences',
+      icon: <ScissorsSquare size={24} />,
+      title: 'Video Editing',
+      description: 'Creating visually engaging digital content for campus campaigns and storytelling.',
     },
   ];
 

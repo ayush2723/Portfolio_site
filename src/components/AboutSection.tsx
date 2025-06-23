@@ -36,7 +36,7 @@ const AboutSection: React.FC = () => {
             <div className="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg">
               <h3 className="font-medium text-xl mb-4">Fun Fact</h3>
               <p className="text-gray-700 dark:text-gray-300">
-                I once debugged code for 48 hours straight fueled by nothing but curiosity and coffee!
+                Once stayed up two nights not to meet a deadline, but because a GC-content bug didn’t sit right with me — and neither did leaving it broken
               </p>
             </div>
           </div>
