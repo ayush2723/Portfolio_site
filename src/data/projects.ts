@@ -39,7 +39,7 @@ const projects: Project[] = [
     description: 'Personal portfolio built with React and Tailwind CSS showcasing projects, experience, and skills with a clean, responsive design.',
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
     github: 'https://github.com/ayush2723/Portfolio_site', // Update if different
-    liveLink: '', // Replace with actual link if hosted
+    liveLink: 'portfolio-site-roan-iota.vercel.app', // Replace with actual link if hosted
   }
 ];
 
