@@ -15,15 +15,15 @@ const ExperienceSection: React.FC = () => {
 
         <div className="relative">
           {/* Timeline vertical line */}
-          <div className="absolute hidden md:block left-1/2 transform -translate-x-1/2 h-full border-l border-gray-300 dark:border-gray-700"></div>
+          <div className="absolute left-4 top-0 bottom-0 w-px bg-gray-300 dark:bg-gray-700 md:left-1/2 md:transform md:-translate-x-1/2"></div>
 
           <div className="space-y-16">
             {experiences.map((experience, index) => {
               const isEven = index % 2 === 0;
               return (
-                <div key={experience.id} className="relative">
+                <div key={experience.id} className="relative pl-10 md:pl-0">
                   {/* Timeline dot */}
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-5 h-5 bg-blue-600 dark:bg-blue-400 rounded-full z-10 border-4 border-white dark:border-gray-900"></div>
+                  <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-blue-600 dark:bg-blue-400 rounded-full z-10 border-4 border-white dark:border-gray-900"></div>
 
                   <div
                     className={`flex flex-col md:flex-row ${
